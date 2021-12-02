@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name:     Preconnect Cleaner
  * Plugin URI:      https://github.com/ItinerisLtd/preconnect-cleaner/
