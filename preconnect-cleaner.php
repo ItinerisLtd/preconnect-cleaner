@@ -4,7 +4,7 @@
  * Plugin Name:     Preconnect Cleaner
  * Plugin URI:      https://github.com/ItinerisLtd/preconnect-cleaner/
  * Description:     Preconnect Cleaner.
- * Version:         0.1.0
+ * Version:         0.1.1
  * Author:          Itineris Limited
  * Author URI:      https://www.itineris.co.uk/
  * Text Domain:     preconnect-cleaner
