@@ -27,7 +27,8 @@
     "php": "^7.4"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-master"
+    "roave/security-advisories": "dev-master",
+    "itinerisltd/itineris-wp-coding-standards": "^0.4.0"
   },
   "extra": {
     "branch-alias": {
@@ -35,6 +36,23 @@
     }
   },
   "prefer-stable": true,
+  "scripts": {
+    "pretag": [
+      "composer update",
+      "@style:check",
+      "composer normalize",
+      "github_changelog_generator --no-verbose",
+      "npx doctoc README.md"
+    ],
+    "release:build": [
+      "rm -fr vendor",
+      "composer install --no-dev --prefer-dist --optimize-autoloader",
+      "rm -fr release wordpress",
+      "composer archive --format=zip --dir=release --file=preconnect-cleaner"
+    ],
+    "style:check": "phpcs",
+    "style:fix": "phpcbf"
+  },
   "support": {
     "email": "dev@itineris.co.uk",
     "issues": "https://github.com/ItinerisLtd/preconnect-cleaner/issues",
