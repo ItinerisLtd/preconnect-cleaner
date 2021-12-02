@@ -42,7 +42,7 @@ add_filter('wp_resource_hints', function (array $urls, string $relation_type): a
                     && ! in_array($parsed['host'], $unique_urls, true)
                     && $parsed['host'] !== $_SERVER['SERVER_NAME'] //phpcs:ignore
                 ) {
-                    $unique_urls[] = $parsed['scheme'] . '://' . $parsed['host'];
+                    $unique_urls[] = ($parsed['scheme'] ?? 'https') . '://' . $parsed['host'];
                 }
             }
         }
