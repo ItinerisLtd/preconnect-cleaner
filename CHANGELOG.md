@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0](https://github.com/itinerisltd/preconnect-cleaner/tree/0.2.0) (2022-12-01)
+
+[Full Changelog](https://github.com/itinerisltd/preconnect-cleaner/compare/0.1.1...0.2.0)
+
+**Merged pull requests:**
+
+- cr 'php:^7.4 || ^8.0' [\#4](https://github.com/ItinerisLtd/preconnect-cleaner/pull/4) ([codepuncher](https://github.com/codepuncher))
+
 ## [0.1.1](https://github.com/itinerisltd/preconnect-cleaner/tree/0.1.1) (2021-12-02)
 
 [Full Changelog](https://github.com/itinerisltd/preconnect-cleaner/compare/0.1.0...0.1.1)
