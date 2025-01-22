@@ -27,7 +27,7 @@
     "php": "^7.4 || ^8.0"
   },
   "require-dev": {
-    "itinerisltd/itineris-wp-coding-standards": "^0.4.0",
+    "itinerisltd/itineris-wp-coding-standards": "^1.0.0",
     "roave/security-advisories": "dev-master"
   },
   "extra": {
